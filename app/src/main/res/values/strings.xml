@@ -1,0 +1,25 @@
+<resources
+    >
+    <string name="app_name">Where To</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="church1">St Paul \'s</string>
+    <string name="church2">Westminster Abbey</string>
+    <string name="church3">All Hallows-by-the-tower</string>
+    <string name="church4">St Martin-in-the-Fields</string>
+
+    <string name="site_distance">(Distance from church)</string>
+    <string name="show_location">Show On Map</string>
+    <string name="location_directions">Start Navigation</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_quiz">quiz</string>
+    <string name="title_activity_facts">facts</string>
+
+    <string name="fact1">St Paul’s Cathedral is one of the largest churches in the world. It is located within the City of London on Ludgate Hill, the City’s highest point.</string>
+    <string name="fact2">St Paul’s Cathedral was the tallest building in London from its construction until 1962. The dome is the second largest in the world at 366 feet high and is reached by climbing 259 steps.</string>
+    <string name="fact3">The present cathedral was built between 1675 and 1710, although other church buildings have stood on the same spot. Old St Paul’s Cathedral was
+     started by the Normans and completed by about 1240</string>
+    <string name="title_activity_sitetest">sitetest</string>
+</resources>

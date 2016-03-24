@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="uk.ac.brunel.cs14rrl1.whereto.location_menu">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/st_pauls"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/church1"
+        android:id="@+id/textView"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:id="@+id/historybutton"
+        android:src="@drawable/ic_settings_backup_restore_white_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginBottom="64dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:id="@+id/historylabel"
+        android:textSize="15dp"
+        android:layout_alignBottom="@+id/historybutton"
+        android:layout_toLeftOf="@+id/historybutton"
+        android:layout_toStartOf="@+id/historybutton" />
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:id="@+id/factsbutton"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/icon_fact"
+        android:layout_above="@+id/historybutton"
+        android:layout_alignLeft="@+id/historybutton"
+        android:layout_alignStart="@+id/historybutton"
+        android:layout_marginBottom="46dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facts"
+        android:id="@+id/factslabel"
+        android:textSize="15dp"
+        android:layout_alignBottom="@+id/factsbutton"
+        android:layout_toLeftOf="@+id/factsbutton"
+        android:layout_toStartOf="@+id/factsbutton" />
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:id="@+id/quizbutton"
+        android:src="@mipmap/icon_quiz"
+        android:layout_marginBottom="37dp"
+        android:layout_above="@+id/factsbutton"
+        android:layout_alignLeft="@+id/factsbutton"
+        android:layout_alignStart="@+id/factsbutton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:id="@+id/quizlabel"
+        android:textSize="15dp"
+        android:layout_alignBottom="@+id/quizbutton"
+        android:layout_toLeftOf="@+id/quizbutton"
+        android:layout_toStartOf="@+id/quizbutton" />
+
+
+</RelativeLayout>
